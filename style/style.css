@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+/* Video Background */
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width:50%;
+  min-height: auto;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+  /*Estilos de Fuente  */
+h1 {
+  font-size: 2.35rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-top: -10px;
+}
+
+#text1 {
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}  
+
+h2 {
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+p {
+  font-size: .7rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  margin-top: -20px;
+  color: black;
+}
+
+#sub{
+  font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: -20px 0px 30px;
+  color: whitesmoke;
+}
+
+/* Estilo de Boton */
+button {
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: .8rem;
+  padding: 6px 30px;
+  border: 2px solid #ebebeb;
+  color: rgb(78, 78, 78);
+  background-color: rgb(235, 235, 235);
+}
+
+/* Estilos de cuerpo de página */
+.container {
+  max-width: 90%;
+  max-height: 100%;
+  margin: 40px auto;
+}
+
+header {
+  max-width: auto;
+  max-height: 15%; 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: auto;
+}
+
+header nav #main {
+  display:block;
+  width:  35px;
+  height: 20px;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 70vh;
+  margin: auto;
+}
+
+.redes {
+  display: flex;
+  height: auto;
+  margin: auto;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter-square, .fa-youtube{
+  height: 25px;
+  margin: 10px;
+  color: white;
+}
